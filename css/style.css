@@ -1,0 +1,116 @@
+body{background: #efefef url(../images/1111.png); margin:0; padding: 0;/*Отсупы шапки*/
+	font: 16px/24px Arial, Tahoma, sans-serif; color: #272727}
+a{text-decoration: none;}
+/*Регистрация*/
+div.row {
+	margin-bottom:10px;
+	width:300px;
+}
+div.row label {
+	display:block;
+	font-weight: bold;
+}
+div.row input.text {
+	font-size: 1.2em;
+	padding: 2px 5px;
+}
+div.to_reg {
+	font-size:0.9em;
+}
+div.instruction {
+	font-size: 0.8em;
+	color: #aaaaaa;
+	margin-left: 2px;
+	cursor: default;
+}
+div.error {
+	color: red;
+	margin-left: 3px;
+}
+
+
+
+
+
+
+
+.r1, .r2,  .r3, .r4 {
+    display: block; 
+    height: 1px;
+    background: #fff;
+    overflow: hidden;
+   }
+   .r1 {  margin: 0 auto; }
+   .r2 {  margin: 0 auto; }
+   .r3 {  margin: 0 auto; }
+   .r4 {  margin: 0 auto; height: 2px; }
+   .block-round-content { 
+    background: #808080; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+	}
+
+
+  
+  
+  
+  
+	
+/*Struct site URI*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background: #101417 url(../images/fon1.jpg) no-repeat top center;}
+
+/*Шапка сайта*/
+div.topmenu{float: right; height:70px; line-height: 70px;}
+div.topmenu a{margin: 0 0 0 10px; color: #1683a3;}/*положение ссылок в шапке(по середине)*/
+div.topmenu a:hover{color: #fff;}
+div.afisha{padding: 20px 50px 0 50px; background: #f2f2f2 url(../images/2716.jpg) top repeat-x;}
+div.afisha img{float: left;}
+div.afisha h3{font-size: 24px; font-weight: normal; text-align: center; color: #830000;}/*Расположение текста по центру(Сайт студента группы...)*/
+div.afisha p{text-align: right;}
+div.afisha a{font-size: 15px; color: #fff; font-weight: bold;
+	background: #b23600; border: 1px solid #862900; padding: 5px 20px;
+	border-radius: 3px; box-shadow: 5px 5px 7px -1px #777; text-shadow: 0px 0px 3px #777;}
+div.afisha a:hover{background: #068bac; border: 1px solid #046d88; text-shadow:0px 0px 3px #034E61;}
+
+
+
+/*Главное меню*/
+div.menu{background:#1683a3; border: 1px solid #016c8b; border-left: none; border-right: none;}
+div.menu ul{margin: 0; padding: 0; list-style: none;text-align: center;}
+div.menu ul li{display: inline-block; margin: 5px 50px;}
+div.menu ul li a{color: #fff; text-transform: uppercase; text-shadow: 1px 1px 3px #0b4455;}
+div.menu ul li a:hover{color: #a3a113;}
+/*Контент сайта*/
+div.fon {background: #fff; border: 1px solid #ccc; border-top: none; padding: 40px;}
+div.fon div.clear {border-bottom: 1px dashed #ccc;}
+div.block {width: 440px; float: left; margin-bottom: 40px;}
+div.block a p{color: #272727;}
+div.block:nth-of-type(even) {width: 440px; float: right;}
+div.anons:hover {background: #e0eff4; border: 1px solid #bfd5dd;}
+div.anons {background: #f5f5f5; border: 1px solid #ccc; border-radius:3px; padding: 20px;}
+div.anons img{box-shadow: 1px 1px 5px #777;}
+div.anons h3{font-size: 20px; margin: 20px 0 10px;font-weight: normal ;padding:0 color: #01617d;line-height: 20px;}
+div.anons p{text-shadow: 1px 1px 0 #fff;}
+/*Обтекание текста*/
+.leftimg {
+	float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+
+
+/*очистка обтекания*/
+div.clear{clear: both;}
+
+
+
+
+
+/*Ааптивный дизайн*/
+@media screen and (max-width: 999px){
+	div.mid{width: 95%;}
+}
