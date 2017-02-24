@@ -5,6 +5,14 @@
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/x-icom" href="images/logo.jpg">
 	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="stylesheet" href="css/style1.css" media="all">
+	<link rel="stylesheet" href="css/bootstrap.css" media="all">
+	<link rel="stylesheet" href="js/jquery.fancybox.css" media="screen">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	
+	
 </head>
 <body>
 	<div class="header">
@@ -40,11 +48,42 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="mid">
-			<div class="fon">
-				<h3>
-					
-				<h3>
+		<div class="mid" style="text-align: center;">
+
+			<div class="gallery">	
+				<div class="row">
+					<div class="col-xs-4" style="img-align:left;">
+						<a class="gallery1" href="images/1september.jpg"><img src="images/1september.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/1_b.jpg"><img src="images/1_b.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/1_s.jpg"><img src="images/1_s.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/2_b.jpg"><img src="images/2_b.jpg" width="150" height="100" alt="" /></a>
+					</div>
+					<div class="col-xs-4">
+						 <div id="letter-container" class="letter-container">
+							<h2>
+								<a href="#">Говно</a>
+							</h2>
+						</div>
+					</div>
+					<div class="col-xs-4" style="img-align:right;">
+						<a class="gallery1" href="images/kes.jpg"><img src="images/kes.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/2_s.jpg"><img src="images/2_s.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/3_b.jpg"><img src="images/3_b.jpg" width="150" height="100" alt="" /></a><br/>
+						<a class="gallery1" href="images/3_s.jpg"><img src="images/3_s.jpg" width="150" height="100" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="gallery2">
+				<a class="gallery1" href="images/4_s.jpg"><img src="images/4_s.jpg" width="150" height="100" alt="" />
+				<a class="gallery1" href="images/5_b.jpg"><img src="images/5_b.jpg" width="150" height="100" alt="" />
+				<a class="gallery1" href="images/5_s.jpg"><img src="images/5_s.jpg" width="150" height="100" alt="" />
+				<a class="gallery1" href="images/det_sad.jpg"><img src="images/det_sad.jpg" width="150" height="100" alt="" />
+				<a class="gallery1" href="images/Dolma.jpg"><img src="images/Dolma.jpg" width="150" height="100" alt="" />
+					<!--<a class="gallery" href="images/melkiy.jpg"><img src="images/melkiy.jpg" width="150" height="100" alt="" />
+					<a class="gallery" href="images/vipysk.jpg"><img src="images/vipysk.jpg" width="150" height="100" alt="" />
+					<a class="gallery" href="images/ya.jpg"><img src="images/ya.jpg" width="150" height="100" alt="" />
+					<a class="gallery" href="images/kes.jpg"><img src="images/kes.jpg" width="150" height="100" alt="" />
+					<a class="gallery" href="images/kes.jpg"><img src="images/kes.jpg" width="150" height="100" alt="" />-->
 			</div>
 		</div>
 	</div>
@@ -54,5 +93,12 @@
 		
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery.lettering.js"></script>
+	<script type="text/javascript">
+				$(function() {
+					$("#letter-container h2 a").lettering();
+				});
+			</script>
+	<script type="text/javascript" src="js/galleryScript.js"></script>
 </body>
 </html>
